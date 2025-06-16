@@ -54,6 +54,8 @@ Synthetic data was generated using the estimated parameters above.
 - **R = 10.25** (True: 10.27)  
 - **P₀ = 3.17** (True: 3.17)
 
+See Jupyter notebook at https://github.com/ashhadulislam/PINNs2025/blob/main/ReadBreathsAndEstimateV1.ipynb
+
 ---
 
 ## To Be Done: PINNs Research Extensions
