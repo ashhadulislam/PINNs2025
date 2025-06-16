@@ -1,0 +1,88 @@
+Here is a README.md file based on the content of your Modeling.pdf, with placeholders for the images that were in the slides:
+
+⸻
+
+🫁 Respiratory Mechanics Modeling
+
+Reference:
+Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023). An enhanced respiratory mechanics model based on double-exponential and fractional calculus. Frontiers in Physiology, 14, 1273645.
+
+⸻
+
+📈 Original Breath Data
+
+Placeholder: Insert image of original breath showing Volume, Flow, and Pressure
+
+⸻
+
+🧠 Equation
+
+The classical linear single-compartment model is defined as:
+
+$$
+P_{aw}(t) = E \cdot V(t) + R \cdot V’(t) + P_0
+$$
+
+Parameters to Estimate:
+    •   E: Elastance
+    •   R: Resistance
+    •   P_0: Baseline Pressure
+
+⸻
+
+🔧 Fitting Parameters to Real Data
+
+Placeholder: Insert plot showing real vs fitted pressure
+
+Fitted Parameters
+    •   E = 29.95
+    •   R = 10.27
+    •   P₀ = 3.17
+
+Model Performance
+    •   Mean Squared Error (MSE) = 0.4978
+    •   R² = 0.9686
+
+⸻
+
+🧪 Simulated Data Generation
+
+Placeholder: Insert synthetic data plot of V(t), V′(t), P(t)
+
+Synthetic data was generated using the estimated parameters above.
+
+⸻
+
+🤖 Parameter Estimation from Synthetic Data using PINNs
+
+Placeholder: Insert plot showing PINN output vs synthetic truth
+
+Recovered Parameters via PINN
+    •   E = 21.00 (True: 29.95)
+    •   R = 10.25 (True: 10.27)
+    •   P₀ = 3.17 (True: 3.17)
+
+⸻
+
+🔭 To Be Done: PINNs Research Extensions
+    1.  Model Complexity Scaling
+Evaluate PINN performance for more complex models:
+    •   Equation 23:
+$$
+P(t) = E_f(V(t)) \cdot V(t) + R(h(V’(t))) \cdot V’(t) + P_0
+$$
+    •   Equation 33:
+$$
+P(t) = EV(t) + RV’(t) + aD_t^\alpha V(t) + b e^{\beta V(t)} + P_0
+$$
+    2.  Generalization Across Breaths
+    •   Train PINNs on a subset (e.g., 3 of 10 synthetic breaths)
+    •   Test parameter recovery on unseen breaths with varying amplitudes/frequencies
+    •   Evaluate generalization error and parameter consistency
+    3.  Noise Robustness Evaluation
+    •   Add Gaussian noise to synthetic data
+    •   Measure degradation in RMSE and R² as noise increases
+
+⸻
+
+Let me know if you’d like the images embedded, or a version saved as an actual .md file.
