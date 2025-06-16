@@ -97,3 +97,7 @@ Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023).
 *An enhanced respiratory mechanics model based on double-exponential and fractional calculus.*  
 Frontiers in Physiology, 14, 1273645.
 
+---
+Interested to join the project?
+Drop a message on slack or email 
+ashhadulislam@gmail.com
