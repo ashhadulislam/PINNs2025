@@ -1,17 +1,17 @@
-🫁 Respiratory Mechanics Modeling
+Respiratory Mechanics Modeling
 
 Reference:
 Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023). An enhanced respiratory mechanics model based on double-exponential and fractional calculus. Frontiers in Physiology, 14, 1273645.
 
 ⸻
 
-📈 Original Breath Data
+Original Breath Data
 
 ![Original Breath](https://github.com/ashhadulislam/PINNs2025/blob/main/docs/figs/OriginalBreaths.png)
 
 ⸻
 
-🧠 Equation
+Equation
 
 The classical linear single-compartment model is defined as:
 
@@ -28,7 +28,9 @@ Parameters to Estimate:
 
 🔧 Fitting Parameters to Real Data
 
-Placeholder: Insert plot showing real vs fitted pressure
+![Real vs Fitted Pressure](https://github.com/ashhadulislam/PINNs2025/blob/main/docs/figs/FittingParams.png)
+
+
 
 Fitted Parameters
     •   E = 29.95
@@ -45,13 +47,18 @@ Model Performance
 
 Placeholder: Insert synthetic data plot of V(t), V′(t), P(t)
 
+![Synthetic data](https://github.com/ashhadulislam/PINNs2025/blob/main/docs/figs/SimulatedBreaths.png)
+
+
 Synthetic data was generated using the estimated parameters above.
 
 ⸻
 
 🤖 Parameter Estimation from Synthetic Data using PINNs
 
-Placeholder: Insert plot showing PINN output vs synthetic truth
+
+![PINN output vs synthetic data](https://github.com/ashhadulislam/PINNs2025/blob/main/docs/figs/EstimatedParamsonSimBreaths.png)
+
 
 Recovered Parameters via PINN
     •   E = 21.00 (True: 29.95)
