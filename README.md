@@ -65,15 +65,15 @@ Evaluate PINN performance for more complex models:
 
 - **Equation 23**:
 
-  $$
-  P(t) = E_f(V(t)) \cdot V(t) + R(h(V'(t))) \cdot V'(t) + P_0
-  $$
+$$
+P(t) = E_f(V(t)) \cdot V(t) + R(h(V'(t))) \cdot V'(t) + P_0
+$$
 
 - **Equation 33**:
 
-  $$
-  P(t) = EV(t) + RV'(t) + aD_t^\alpha V(t) + b e^{\beta V(t)} + P_0
-  $$
+$$
+P(t) = EV(t) + RV'(t) + aD_t^\alpha V(t) + b e^{\beta V(t)} + P_0
+$$
 
 ---
 
