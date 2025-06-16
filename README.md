@@ -20,8 +20,8 @@ P_{aw}(t) = E \cdot V(t) + R \cdot V’(t) + P_0
 $$
 
 Parameters to Estimate:
-    •   E: Elastance
-    •   R: Resistance
+ - E: Elastance
+ - R: Resistance
     •   P_0: Baseline Pressure
 
 ⸻
