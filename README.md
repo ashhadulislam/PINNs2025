@@ -1,11 +1,5 @@
 # Respiratory Mechanics Modeling
 
-**Reference:**  
-Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023).  
-*An enhanced respiratory mechanics model based on double-exponential and fractional calculus.*  
-Frontiers in Physiology, 14, 1273645.
-
----
 
 ## Original Breath Data
 
@@ -93,3 +87,11 @@ Evaluate PINN performance for more complex models:
 
 - Add Gaussian noise to synthetic data  
 - Measure degradation in RMSE and R² as noise increases
+
+---
+
+**Reference:**  
+Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023).  
+*An enhanced respiratory mechanics model based on double-exponential and fractional calculus.*  
+Frontiers in Physiology, 14, 1273645.
+
