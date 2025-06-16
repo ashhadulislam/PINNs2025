@@ -1,7 +1,3 @@
-Here is a README.md file based on the content of your Modeling.pdf, with placeholders for the images that were in the slides:
-
-⸻
-
 🫁 Respiratory Mechanics Modeling
 
 Reference:
@@ -11,7 +7,7 @@ Li, Z., Pei, Y., Wang, Y., & Tian, Q. (2023). An enhanced respiratory mechanics 
 
 📈 Original Breath Data
 
-Placeholder: Insert image of original breath showing Volume, Flow, and Pressure
+![Original Breath](https://github.com/ashhadulislam/PINNs2025/blob/main/docs/figs/OriginalBreaths.png)
 
 ⸻
 
